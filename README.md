@@ -1,5 +1,44 @@
 # Projeto Bike-E: Conectando o Ciclismo à Fórmula E
+EDGE COMPUTING & COMPUTER SYSTEMS
 
+Objetivo 3: Desenvolvimento da arquitetura para uma aplicação de IoT
+
+Sprint 3: O objetivo desta tarefa é desenvolver a arquitetura inicial de uma aplicação IoT capaz de receber e transmitir dados biometricamente por meio de um Edge Device.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Entregas:
+
+## Entregas
+
+- [ ] **Criação do vídeo Explicativo (60 pontos):**
+  - [ ] Introdução ao IoT e ao mercado em ascensão dos dispositivos inteligentes.
+  - [ ] Link (por exemplo, YouTube), Vídeo, etc.), abordando os seguintes pontos:
+    - [ ] Explicar o conceito envolvido na Internet das Coisas (IoT), a importância dessa tecnologia e as soluções adotadas para as aplicações IoT e destacando os componentes principais.
+    - [ ] Apresentar o mercado emergente na área da aplicação da Internet das Coisas.
+
+- [ ] **Desenvolvimento (20 pontos):**
+  - [ ] Explicar os passos necessários para configurar a plataforma de protótipo, com a criação de um dispositivo Node.js básico para se comunicar com outros dispositivos através do Wi-Fi.
+
+- [ ] **Demonstração (20 pontos):**
+  - [ ] Evidenciar uma demonstração prática com o uso correto dos recursos do Edge Device, detalhando o hardware e sua utilização com base nos requisitos do projeto.
+  - [ ] Executar corretamente o hardware, demonstrando o funcionamento da plataforma de IoT.
+  - [ ] Executar uma collection básica entre os dados coletados e as configurações do projeto.
+
+- [ ] **EDGE COMPUTING & COMPUTER SYSTEMS**
+  - [ ] Exibir dashboards destacando as informações necessárias da aplicação.
+
+---
+
+## Edge Computing
+
+- [ ] **ENTREGA 2: Repositório GIT (40 pontos). Disponibilizar um repositório GitHub contendo os seguintes itens:**
+
+  - [ ] **Projeto:**
+    - [ ] Elaborar um draft de arquitetura completa e estruturação do desenvolvimento do projeto.
+    - [ ] Incluir um README completo para a solução, desenvolvendo detalhes sobre back-end e front-end. Apresentar instruções de uso dos dispositivos ou recursos necessários para implementar a solução, considerando os processos locais e não apenas na rede.
+    - [ ] Descrever os protocolos de comunicação entre dispositivos móveis e o uso destes recursos.
+
+  - [ ] **Códigos Fonte (10 pontos):**
+    - [ ] Incluir os códigos desenvolvidos e os arquivos necessários para o funcionamento da aplicação de sua aplicação.
 ## Objetivo
 O objetivo principal do Projeto Bike-E é:
 
@@ -69,52 +108,13 @@ O projeto funciona da seguinte forma:
 
 [Link para acessar o projeto no WOKWI](https://wokwi.com/projects/400391918414007297)
 
-https://github.com/hellen-silvaa/Challage__Edge_Computing/assets/127620071/9a35671b-a2d1-4819-a32e-b7ac4dd27e16
+video aquiiiiii
 
 # Conectando a Fórmula E com as pessoas
 
 O Projeto AroundCity, tem a Bike-E que é uma iniciativa inovadora que busca integrar o mundo do ciclismo urbano com a emoção e tecnologia da Fórmula E. Utilizando componentes de IoT (Internet das Coisas) e algoritmos de controle eficientes, o projeto visa captar informações relevantes durante o trajeto de bicicleta, proporcionando uma experiência única e interativa para ciclistas de todas as idades e níveis de conhecimento sobre automobilismo.
 
-EDGE COMPUTING & COMPUTER SYSTEMS
 
-Objetivo 3: Desenvolvimento da arquitetura para uma aplicação de IoT
-
-Sprint 3: O objetivo desta tarefa é desenvolver a arquitetura inicial de uma aplicação IoT capaz de receber e transmitir dados biometricamente por meio de um Edge Device.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Entregas:
-
-## Entregas
-
-- [ ] **Criação do vídeo Explicativo (60 pontos):**
-  - [ ] Introdução ao IoT e ao mercado em ascensão dos dispositivos inteligentes.
-  - [ ] Link (por exemplo, YouTube), Vídeo, etc.), abordando os seguintes pontos:
-    - [ ] Explicar o conceito envolvido na Internet das Coisas (IoT), a importância dessa tecnologia e as soluções adotadas para as aplicações IoT e destacando os componentes principais.
-    - [ ] Apresentar o mercado emergente na área da aplicação da Internet das Coisas.
-
-- [ ] **Desenvolvimento (20 pontos):**
-  - [ ] Explicar os passos necessários para configurar a plataforma de protótipo, com a criação de um dispositivo Node.js básico para se comunicar com outros dispositivos através do Wi-Fi.
-
-- [ ] **Demonstração (20 pontos):**
-  - [ ] Evidenciar uma demonstração prática com o uso correto dos recursos do Edge Device, detalhando o hardware e sua utilização com base nos requisitos do projeto.
-  - [ ] Executar corretamente o hardware, demonstrando o funcionamento da plataforma de IoT.
-  - [ ] Executar uma collection básica entre os dados coletados e as configurações do projeto.
-
-- [ ] **EDGE COMPUTING & COMPUTER SYSTEMS**
-  - [ ] Exibir dashboards destacando as informações necessárias da aplicação.
-
----
-
-## Edge Computing
-
-- [ ] **ENTREGA 2: Repositório GIT (40 pontos). Disponibilizar um repositório GitHub contendo os seguintes itens:**
-
-  - [ ] **Projeto:**
-    - [ ] Elaborar um draft de arquitetura completa e estruturação do desenvolvimento do projeto.
-    - [ ] Incluir um README completo para a solução, desenvolvendo detalhes sobre back-end e front-end. Apresentar instruções de uso dos dispositivos ou recursos necessários para implementar a solução, considerando os processos locais e não apenas na rede.
-    - [ ] Descrever os protocolos de comunicação entre dispositivos móveis e o uso destes recursos.
-
-  - [ ] **Códigos Fonte (10 pontos):**
-    - [ ] Incluir os códigos desenvolvidos e os arquivos necessários para o funcionamento da aplicação de sua aplicação.
 
 ## Integrantes do Grupo:
 
