@@ -9,6 +9,7 @@ Entregas:
 
 ## Entregas
 
+
 - [ ] **Criação do vídeo Explicativo (60 pontos):**
   - [ ] Introdução ao IoT e ao mercado em ascensão dos dispositivos inteligentes.
   - [ ] Link (por exemplo, YouTube), Vídeo, etc.), abordando os seguintes pontos:
