@@ -66,8 +66,24 @@ video aquiiiiii
 
 
 ## Iot Back-end
+usei o node red (explicar o node-red e explciar o porque ele foi utilizado com o wokwi)
+-usei mqtt in (explicar pra que serve)
+- gauche para o dashboard(explciar pra que serve)
+![image](https://github.com/user-attachments/assets/70dfa369-96f9-4fb8-ba4b-c56898c8e5d5)
+
+configurando o mqtt in usando o servidor test.mosquito.org na porta 1883 em um unico topico e cada mqtt in recebe um /bike/ com o respectivo dado QoS 0 saída em autodecteçao (explicar tudo isso)
+![image](https://github.com/user-attachments/assets/43f186ce-4cd9-4781-b995-251031cbc5c3)
+
+tabela organização para exibir os dados no dashboard:
+![image](https://github.com/user-attachments/assets/021a5312-4649-48a6-a2d1-8e1e348dcfef)
+
+
+dashboard exibindo em tempo real os dados de km rodados, moedas ganhas, calorias gastas e luminosidade do farol da bicilceta que são dados essenciais para o ciclista que esta andando na bike-e
 ## Instruções de uso
+(faça por favor explicando  o que precisa instalar e afins)
+
 ## Requisitos
+faça tambem
 
 
 ## Integrantes do Grupo:
