@@ -19,7 +19,7 @@ A Bike-E possui diversas funcionalidades que agregam valor à experiência do us
 5. **Recompensas:** A cada 5 km percorridos, o ciclista ganha 50 moedas, que podem ser acumuladas e trocadas por prêmios exclusivos relacionados à Fórmula E, como camisetas, descontos em eventos e visitas técnicas.
 ![image](https://github.com/user-attachments/assets/275bc003-c491-4152-971b-5ed8ac60810b)
 
-## Descrição Detalhada do Projeto
+## Descrição do Projeto
 O Projeto Bike-E é uma iniciativa que busca integrar o mundo do ciclismo urbano e sustentabilidade com a emoção e tecnologia da Fórmula E. Utilizando componentes de IoT (Internet das Coisas) e algoritmos de controle, o projeto visa captar informações relevantes durante o percurso de bicicleta, proporcionando uma experiência única e interativa para ciclistas de todas as idades e níveis de conhecimento sobre automobilismo.
 
 ## Componentes
