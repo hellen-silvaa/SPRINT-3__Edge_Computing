@@ -36,7 +36,7 @@ O Projeto Bike-E é uma iniciativa que busca integrar o mundo do ciclismo urbano
 - 2 Resistores de 220 ohm para os LEDs
 - Jumpers
 
-## Principais Tecnologias Utilizadas
+## Dependências
 - C++ 
 - IoT (Internet das Coisas)
 - Software Wokwi
@@ -68,7 +68,7 @@ video aquiiiiii
 ## Iot Back-end
 ## Instruções de uso
 ## Requisitos
-## Dependências
+
 
 ## Integrantes do Grupo:
 
