@@ -7,7 +7,7 @@ O objetivo desta sprint é desenvolver a arquitetura inicial de uma aplicação 
 - **Promover a Fórmula E:** Tornar a Fórmula E mais acessível e popular para pessoas de todas as idades, conectando-a ao cotidiano das pessoas através do ciclismo urbano.
 
 ## Draft de arquitetura da nossa solução Iot
-Para alcançar o objetivo proposto, o Projeto Bike-E foi desenvolvido atraves de uma arquitetura que tem iot devices, front-end e back-end
+O projeto é composto por uma arquitetura IoT que inclui dispositivos, front-end e back-end, oferecendo uma experiência interativa e em tempo real.
 
 ## Iot Front-end principais funcionalidades:
 A Bike-E possui diversas funcionalidades que agregam valor à experiência do usuário e tudo isso é exibido em dashboards em tempo real:
@@ -40,7 +40,7 @@ O Projeto Bike-E é uma iniciativa que busca integrar o mundo do ciclismo urbano
 - C++ 
 - IoT (Internet das Coisas)
 - Software Wokwi
-- Node-red
+- Node-RED
 - Servidor Protocolo MQTT (test.mosquitto.org)
   
 ![image](https://github.com/user-attachments/assets/2ec0cd3f-9d25-419e-b02d-302be35028e7)
@@ -62,10 +62,15 @@ O projeto funciona da seguinte forma:
 
 [Link para acessar o projeto no WOKWI](https://wokwi.com/projects/409841153813711873)
 
-video aquiiiiii
 
 
 ## Iot Back-end
+### Node-RED e MQTT
+Utilizamos o **Node-RED** para criar os dashboards em tempo real e o **MQTT** para transmissão de dados. O **mqtt in** recebe os dados dos tópicos `/bike/calorias`, `/bike/moedas``/bike/quilometros`, `/bike/luminosidade`, e o **gauge** exibe os dados no dashboard.
+
+### Configurações
+- **MQTT In:** Configurado no servidor test.mosquitto.org, porta 1883, tópico único `/bike/` com QoS 0 e saída em autodetecção.
+
 usei o node red (explicar o node-red e explciar o porque ele foi utilizado com o wokwi)
 -usei mqtt in (explicar pra que serve)
 - gauche para o dashboard(explciar pra que serve)
@@ -79,11 +84,16 @@ tabela organização para exibir os dados no dashboard:
 
 
 dashboard exibindo em tempo real os dados de km rodados, moedas ganhas, calorias gastas e luminosidade do farol da bicilceta que são dados essenciais para o ciclista que esta andando na bike-e
-## Instruções de uso
-(faça por favor explicando  o que precisa instalar e afins)
+
+## Instruções de Uso
+1. Instale o [Node-RED](https://nodered.org/docs/getting-started/local).
+2. Configure o MQTT no Node-RED para receber os dados dos tópicos.
+3. Execute o projeto no Wokwi e conecte ao servidor test.mosquitto.org.
 
 ## Requisitos
-faça tambem
+- ESP32 com conectividade WiFi
+- Conhecimento básico em Node-RED e MQTT
+- Acesso ao servidor MQTT (test.mosquitto.org)
 
 
 ## Integrantes do Grupo:
