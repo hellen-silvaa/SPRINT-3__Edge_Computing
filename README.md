@@ -6,9 +6,7 @@ O objetivo desta sprint é desenvolver a arquitetura inicial de uma aplicação 
 
 - **Promover a Fórmula E:** Tornar a Fórmula E mais acessível e popular para pessoas de todas as idades, conectando-a ao cotidiano das pessoas através do ciclismo urbano.
 
-# Draft de arquitetura da nossa solução Iot
-
-## Otimização de Desempenho e Eficiência Energética
+## Draft de arquitetura da nossa solução Iot
 Para alcançar o objetivo proposto, o Projeto Bike-E foi desenvolvido atraves de uma arquitetura que tem iot devices, front-end e back-end
 
 ## Iot Front-end principais funcionalidades:
