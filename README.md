@@ -9,11 +9,7 @@ O objetivo desta sprint é desenvolver a arquitetura inicial de uma aplicação 
 # Draft de arquitetura da nossa solução Iot
 
 ## Otimização de Desempenho e Eficiência Energética
-Para alcançar o objetivo proposto, o Projeto Bike-E foca em:
-
-- **Eficiência Energética:** Utilizando componentes cuidadosamente selecionados e algoritmos de controle inteligentes para maximizar a autonomia da bicicleta elétrica. Será implementado futuramente um sistema que a partir da energia mecânica gerada pelas pedaladas será capturada, transformada em energia elétrica e armazenada para carregar celulares e afins.
-  
-- **Desempenho:** Desenvolvendo técnicas de economia de energia e otimização de desempenho para garantir uma experiência de pedalada suave e eficiente.
+Para alcançar o objetivo proposto, o Projeto Bike-E foi desenvolvido atraves de uma arquitetura que tem iot devices, front-end e back-end
 
 ## Iot Front-end principais funcionalidades:
 A Bike-E possui diversas funcionalidades que agregam valor à experiência do usuário:
