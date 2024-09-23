@@ -22,6 +22,9 @@ A Bike-E possui diversas funcionalidades que agregam valor à experiência do us
 ![edgeee](https://github.com/user-attachments/assets/7b8ec350-4c8d-4a6d-8001-ef8a821ccf1a)
 
 
+
+
+## Iot devices
 ## Descrição do Projeto
 O Projeto Bike-E é uma iniciativa que busca integrar o mundo do ciclismo urbano e sustentabilidade com a emoção e tecnologia da Fórmula E. Utilizando componentes de IoT (Internet das Coisas) e algoritmos de controle, o projeto visa captar informações relevantes durante o percurso de bicicleta, proporcionando uma experiência única e interativa para ciclistas de todas as idades e níveis de conhecimento sobre automobilismo.
 
@@ -42,9 +45,6 @@ O Projeto Bike-E é uma iniciativa que busca integrar o mundo do ciclismo urbano
 - Node-red
 - Servidor Protocolo MQTT (test.mosquitto.org)
   
-
-## Iot devices
-
 ![image](https://github.com/user-attachments/assets/2ec0cd3f-9d25-419e-b02d-302be35028e7)
 
 
