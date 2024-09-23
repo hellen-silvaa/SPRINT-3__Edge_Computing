@@ -1,49 +1,12 @@
 # Projeto Bike-E: Conectando o Ciclismo à Fórmula E
 EDGE COMPUTING & COMPUTER SYSTEMS
 
-Objetivo 3: Desenvolvimento da arquitetura para uma aplicação de IoT
-
-Sprint 3: O objetivo desta tarefa é desenvolver a arquitetura inicial de uma aplicação IoT capaz de receber e transmitir dados biometricamente por meio de um Edge Device.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Entregas:
-
-## Entregas
-
-
-- [ ] **Criação do vídeo Explicativo (60 pontos):**
-  - [ ] Introdução ao IoT e ao mercado em ascensão dos dispositivos inteligentes.
-  - [ ] Link (por exemplo, YouTube), Vídeo, etc.), abordando os seguintes pontos:
-    - [ ] Explicar o conceito envolvido na Internet das Coisas (IoT), a importância dessa tecnologia e as soluções adotadas para as aplicações IoT e destacando os componentes principais.
-    - [ ] Apresentar o mercado emergente na área da aplicação da Internet das Coisas.
-
-- [ ] **Desenvolvimento (20 pontos):**
-  - [ ] Explicar os passos necessários para configurar a plataforma de protótipo, com a criação de um dispositivo Node.js básico para se comunicar com outros dispositivos através do Wi-Fi.
-
-- [ ] **Demonstração (20 pontos):**
-  - [ ] Evidenciar uma demonstração prática com o uso correto dos recursos do Edge Device, detalhando o hardware e sua utilização com base nos requisitos do projeto.
-  - [ ] Executar corretamente o hardware, demonstrando o funcionamento da plataforma de IoT.
-  - [ ] Executar uma collection básica entre os dados coletados e as configurações do projeto.
-
-- [ ] **EDGE COMPUTING & COMPUTER SYSTEMS**
-  - [ ] Exibir dashboards destacando as informações necessárias da aplicação.
-
----
-
-## Edge Computing
-
-- [ ] **ENTREGA 2: Repositório GIT (40 pontos). Disponibilizar um repositório GitHub contendo os seguintes itens:**
-
-  - [ ] **Projeto:**
-    - [ ] Elaborar um draft de arquitetura completa e estruturação do desenvolvimento do projeto.
-    - [ ] Incluir um README completo para a solução, desenvolvendo detalhes sobre back-end e front-end. Apresentar instruções de uso dos dispositivos ou recursos necessários para implementar a solução, considerando os processos locais e não apenas na rede.
-    - [ ] Descrever os protocolos de comunicação entre dispositivos móveis e o uso destes recursos.
-
-  - [ ] **Códigos Fonte (10 pontos):**
-    - [ ] Incluir os códigos desenvolvidos e os arquivos necessários para o funcionamento da aplicação de sua aplicação.
 ## Objetivo
-O objetivo principal do Projeto Bike-E é:
+O objetivo desta sprint é desenvolver a arquitetura inicial de uma aplicação IoT capaz de receber e transmitir dados biometricamente por meio de um Edge Device. a partir disso desenvolvemos o Projeto Bike-E que tem como ambição:
 
 - **Promover a Fórmula E:** Tornar a Fórmula E mais acessível e popular para pessoas de todas as idades, conectando-a ao cotidiano das pessoas através do ciclismo urbano.
+
+# Draft de arquitetura da nossa solução Iot
 
 ## Otimização de Desempenho e Eficiência Energética
 Para alcançar o objetivo proposto, o Projeto Bike-E foca em:
@@ -52,7 +15,7 @@ Para alcançar o objetivo proposto, o Projeto Bike-E foca em:
   
 - **Desempenho:** Desenvolvendo técnicas de economia de energia e otimização de desempenho para garantir uma experiência de pedalada suave e eficiente.
 
-## Funcionalidades Principais
+## Iot Front-end principais funcionalidades:
 A Bike-E possui diversas funcionalidades que agregam valor à experiência do usuário:
 
 1. **Medição de Distância:** Utilizando um sensor magnético instalado no aro da bicicleta, o dispositivo é capaz de medir a distância percorrida e a velocidade do ciclista com precisão.
@@ -61,10 +24,7 @@ A Bike-E possui diversas funcionalidades que agregam valor à experiência do us
 4. **Display LCD:** Um display LCD integrado fornece informações em tempo real sobre a distância percorrida e as calorias gastas. Além disso, a cada 1 km percorrido, o dispositivo exibe uma mensagem de progresso no display.
 5. **Recompensas:** A cada 5 km percorridos, o ciclista ganha 50 moedas, que podem ser acumuladas e trocadas por prêmios exclusivos relacionados à Fórmula E, como camisetas, descontos em eventos e visitas técnicas.
 
-## Benefícios e Popularidade
-O Projeto Bike-E tem o potencial de se tornar popular por diversos motivos:
 
-- **Integração com a Fórmula E:** Ao conectar o ciclismo urbano com a Fórmula E, o projeto aumenta a visibilidade e o interesse pelo evento, tornando-o mais conhecido e acessível para o público em geral.
 - **Incentivo à Prática Esportiva:** Ao oferecer recompensas e feedback em tempo real, o Bike-E incentiva a prática regular de exercícios físicos, contribuindo para um estilo de vida mais saudável e ativo.
 - **Sustentabilidade:** O uso de bicicletas elétricas promove a mobilidade urbana sustentável, reduzindo as emissões de carbono e contribuindo para um ambiente mais limpo e saudável.
 - **Experiência Interativa:** A integração de tecnologia IoT proporciona uma experiência de pedalada interativa e envolvente, cativando ciclistas de todas as idades e níveis de habilidade.
@@ -91,12 +51,15 @@ O Projeto Bike-E é uma iniciativa que busca integrar o mundo do ciclismo urbano
 - IoT (Internet das Coisas)
 - Software Wokwi
 
-## Explicação dos Principais Componentes
+## Iot devices
 
-- **Arduino Uno:** Plataforma de hardware utilizada como o cérebro do nosso projeto, responsável por controlar e processar os dados dos sensores.
-- **LCD 16x02:** Display utilizado para exibir informações como distância percorrida, calorias gastas, estado dos faróis, mensagem de bonificação por x km rodados.
-- **Sensor Fotoresistor (LDR):** Sensor utilizado para detectar a luminosidade ambiente e ligar ou desligar automaticamente os faróis da bicicleta quando necessário.
+![image](https://github.com/user-attachments/assets/2ec0cd3f-9d25-419e-b02d-302be35028e7)
+
+
+- **ESP32:** Plataforma de hardware utilizada como o cérebro do nosso projeto, responsável por controlar e processar os dados dos sensores.
 - **Sensor de Movimento Infravermelho Passivo (PIR):** Sensor utilizado para detectar o movimento do ciclista, substituindo o velocímetro tradicional.
+- **Sensor Fotoresistor (LDR):** Sensor utilizado para detectar a luminosidade ambiente e ligar ou desligar automaticamente os faróis da bicicleta quando necessário.
+- **LCD 16x02:** Display utilizado para exibir informações como distância percorrida, calorias gastas, estado dos faróis, mensagem de bonificação por x km rodados.
 - **LEDs:** Utilizados para representar os faróis da bicicleta (LED branco) e indicar alertas de km rodado (LED vermelho).
 
 ## Funcionamento
@@ -111,11 +74,11 @@ O projeto funciona da seguinte forma:
 
 video aquiiiiii
 
-# Conectando a Fórmula E com as pessoas
 
-O Projeto AroundCity, tem a Bike-E que é uma iniciativa inovadora que busca integrar o mundo do ciclismo urbano com a emoção e tecnologia da Fórmula E. Utilizando componentes de IoT (Internet das Coisas) e algoritmos de controle eficientes, o projeto visa captar informações relevantes durante o trajeto de bicicleta, proporcionando uma experiência única e interativa para ciclistas de todas as idades e níveis de conhecimento sobre automobilismo.
-
-
+## Iot Back-end
+## Instruções de uso
+## Requisitos
+## Dependências
 
 ## Integrantes do Grupo:
 
