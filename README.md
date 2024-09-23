@@ -10,14 +10,15 @@ O objetivo desta sprint é desenvolver a arquitetura inicial de uma aplicação 
 Para alcançar o objetivo proposto, o Projeto Bike-E foi desenvolvido atraves de uma arquitetura que tem iot devices, front-end e back-end
 
 ## Iot Front-end principais funcionalidades:
-A Bike-E possui diversas funcionalidades que agregam valor à experiência do usuário:
+A Bike-E possui diversas funcionalidades que agregam valor à experiência do usuário e tudo isso é exibido em dashboards em tempo real:
 
 1. **Medição de Distância:** Utilizando um sensor magnético instalado no aro da bicicleta, o dispositivo é capaz de medir a distância percorrida e a velocidade do ciclista com precisão.
 2. **Contador de Calorias:** Através da lógica desenvolvida, o dispositivo calcula com precisão as calorias gastas durante o trajeto, fornecendo informações valiosas para o usuário.
 3. **Iluminação Automática:** Equipado com sensores LDR, os faróis da bicicleta são acionados automaticamente ao anoitecer, garantindo a segurança do ciclista durante a noite.
 4. **Display LCD:** Um display LCD integrado fornece informações em tempo real sobre a distância percorrida e as calorias gastas. Além disso, a cada 1 km percorrido, o dispositivo exibe uma mensagem de progresso no display.
 5. **Recompensas:** A cada 5 km percorridos, o ciclista ganha 50 moedas, que podem ser acumuladas e trocadas por prêmios exclusivos relacionados à Fórmula E, como camisetas, descontos em eventos e visitas técnicas.
-![image](https://github.com/user-attachments/assets/275bc003-c491-4152-971b-5ed8ac60810b)
+![image](![edgeee](https://github.com/user-attachments/assets/0bb43605-37e8-4ca1-a12f-f443387f5241)
+)
 
 ## Descrição do Projeto
 O Projeto Bike-E é uma iniciativa que busca integrar o mundo do ciclismo urbano e sustentabilidade com a emoção e tecnologia da Fórmula E. Utilizando componentes de IoT (Internet das Coisas) e algoritmos de controle, o projeto visa captar informações relevantes durante o percurso de bicicleta, proporcionando uma experiência única e interativa para ciclistas de todas as idades e níveis de conhecimento sobre automobilismo.
