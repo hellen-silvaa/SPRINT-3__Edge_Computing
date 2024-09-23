@@ -17,7 +17,7 @@ A Bike-E possui diversas funcionalidades que agregam valor à experiência do us
 3. **Iluminação Automática:** Equipado com sensores LDR, os faróis da bicicleta são acionados automaticamente ao anoitecer, garantindo a segurança do ciclista durante a noite.
 4. **Display LCD:** Um display LCD integrado fornece informações em tempo real sobre a distância percorrida e as calorias gastas. Além disso, a cada 1 km percorrido, o dispositivo exibe uma mensagem de progresso no display.
 5. **Recompensas:** A cada 5 km percorridos, o ciclista ganha 50 moedas, que podem ser acumuladas e trocadas por prêmios exclusivos relacionados à Fórmula E, como camisetas, descontos em eventos e visitas técnicas.
-![image](![edgeee](https://github.com/user-attachments/assets/0bb43605-37e8-4ca1-a12f-f443387f5241)
+![image]((https://github.com/user-attachments/assets/0bb43605-37e8-4ca1-a12f-f443387f5241)
 )
 
 ## Descrição do Projeto
