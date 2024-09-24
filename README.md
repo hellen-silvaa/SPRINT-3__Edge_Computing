@@ -41,7 +41,7 @@ O Projeto Bike-E é uma iniciativa que busca integrar o mundo do ciclismo urbano
 - IoT (Internet das Coisas)
 - Software Wokwi
 - Node-RED
-- Servidor Protocolo MQTT (test.mosquitto.org)
+- Servidor Protocolo MQTT 
   
 ![image](https://github.com/user-attachments/assets/2ec0cd3f-9d25-419e-b02d-302be35028e7)
 
