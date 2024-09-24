@@ -61,14 +61,13 @@ O projeto funciona da seguinte forma:
 4. O ESP32 conecta ao wifi Wokwi-GUEST usando o servidor test.mosquitto.org e processa os dados dos sensores e exibe as informações relevantes no LCD 16x02.
 
 
-
-
 ## Iot Back-end
 ### Node-RED e MQTT
 Utilizamos o **Node-RED** para criar os dashboards em tempo real e o **MQTT** para transmissão de dados. O **mqtt in** recebe os dados dos tópicos `/bike/calorias`, `/bike/moedas``/bike/quilometros`, `/bike/luminosidade`, e o **gauge** exibe os dados no dashboard.
 
 ### Configurações
-**1. MQTT In:**
+
+#**1. MQTT In:**
 ![image](https://github.com/user-attachments/assets/70dfa369-96f9-4fb8-ba4b-c56898c8e5d5)
 
 **2. Bibliotecas:**
