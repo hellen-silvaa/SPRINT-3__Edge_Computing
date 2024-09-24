@@ -84,7 +84,7 @@ Utilizamos o **Node-RED** para criar os dashboards em tempo real e o **MQTT** pa
 ![image](https://github.com/user-attachments/assets/021a5312-4649-48a6-a2d1-8e1e348dcfef)
 
 ## Dashboard:
-exibe em tempo real os dados de km rodados, moedas ganhas, calorias gastas e luminosidade do farol da bicilceta que são dados essenciais para o ciclista que esta andando na bike-e
+Exibe em tempo real os dados de km rodados, moedas ganhas, calorias gastas e luminosidade do farol da bicilceta que são dados essenciais para o ciclista que esta andando na bike-e
 
 ![image](https://github.com/user-attachments/assets/2f84daac-0d35-4416-a456-da6aa53e2984)
 
