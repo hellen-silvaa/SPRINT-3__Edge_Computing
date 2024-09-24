@@ -81,7 +81,6 @@ configurando o mqtt in usando o servidor test.mosquito.org na porta 1883 em um u
 tabela organização para exibir os dados no dashboard:
 ![image](https://github.com/user-attachments/assets/021a5312-4649-48a6-a2d1-8e1e348dcfef)
 
-
 ## Dashboard:
 exibe em tempo real os dados de km rodados, moedas ganhas, calorias gastas e luminosidade do farol da bicilceta que são dados essenciais para o ciclista que esta andando na bike-e
 
