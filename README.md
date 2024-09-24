@@ -18,7 +18,7 @@ A Bike-E possui diversas funcionalidades que agregam valor à experiência do us
 4. **Display LCD:** Um display LCD integrado fornece informações em tempo real sobre a distância percorrida e as calorias gastas. Além disso, a cada 1 km percorrido, o dispositivo exibe uma mensagem de progresso no display.
 5. **Recompensas:** A cada 5 km percorridos, o ciclista ganha 50 moedas, que podem ser acumuladas e trocadas por prêmios exclusivos relacionados à Fórmula E, como camisetas, descontos em eventos e visitas técnicas.
 
-   [Link para acessar o projeto no WOKWI](https://wokwi.com/projects/409841153813711873)
+[Link para acessar o projeto no WOKWI](https://wokwi.com/projects/409841153813711873)
 ![edgeee](https://github.com/user-attachments/assets/7b8ec350-4c8d-4a6d-8001-ef8a821ccf1a)
 
 
@@ -75,10 +75,13 @@ usei o node red (explicar o node-red e explciar o porque ele foi utilizado com o
 - gauche para o dashboard(explciar pra que serve)
 ![image](https://github.com/user-attachments/assets/70dfa369-96f9-4fb8-ba4b-c56898c8e5d5)
 
-configurando o mqtt in usando o servidor test.mosquito.org na porta 1883 em um unico topico e cada mqtt in recebe um /bike/ com o respectivo dado QoS 0 saída em autodecteçao (explicar tudo isso)
+1.Bibliotecas
+  ![image](https://github.com/user-attachments/assets/c9b4b35a-3e13-45b7-9052-0a0251ff307e)
+
+2.Configuração MQTT
 ![image](https://github.com/user-attachments/assets/43f186ce-4cd9-4781-b995-251031cbc5c3)
 
-tabela organização para exibir os dados no dashboard:
+3. Organização dados do Dashbard:
 ![image](https://github.com/user-attachments/assets/021a5312-4649-48a6-a2d1-8e1e348dcfef)
 
 ## Dashboard:
