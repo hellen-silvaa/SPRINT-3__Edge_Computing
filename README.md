@@ -18,7 +18,7 @@ A Bike-E possui diversas funcionalidades que agregam valor à experiência do us
 4. **Display LCD:** Um display LCD integrado fornece informações em tempo real sobre a distância percorrida e as calorias gastas. Além disso, a cada 1 km percorrido, o dispositivo exibe uma mensagem de progresso no display.
 5. **Recompensas:** A cada 5 km percorridos, o ciclista ganha 50 moedas, que podem ser acumuladas e trocadas por prêmios exclusivos relacionados à Fórmula E, como camisetas, descontos em eventos e visitas técnicas.
 
-   
+   [Link para acessar o projeto no WOKWI](https://wokwi.com/projects/409841153813711873)
 ![edgeee](https://github.com/user-attachments/assets/7b8ec350-4c8d-4a6d-8001-ef8a821ccf1a)
 
 
@@ -60,7 +60,7 @@ O projeto funciona da seguinte forma:
 3. O sensor PIR detecta o movimento da roda da bicicleta, enviando os dados para o Arduino.
 4. O ESP32 conecta ao wifi Wokwi-GUEST usando o servidor test.mosquitto.org e processa os dados dos sensores e exibe as informações relevantes no LCD 16x02.
 
-[Link para acessar o projeto no WOKWI](https://wokwi.com/projects/409841153813711873)
+
 
 
 ## Iot Back-end
