@@ -67,16 +67,20 @@ Utilizamos o **Node-RED** para criar os dashboards em tempo real e o **MQTT** pa
 
 ### Configurações
 
-#**1. MQTT In:**
+**1. MQTT In:**
+
 ![image](https://github.com/user-attachments/assets/70dfa369-96f9-4fb8-ba4b-c56898c8e5d5)
 
 **2. Bibliotecas:**
+
   ![image](https://github.com/user-attachments/assets/c9b4b35a-3e13-45b7-9052-0a0251ff307e)
 
 **3. Configuração MQTT:**
+
 ![image](https://github.com/user-attachments/assets/43f186ce-4cd9-4781-b995-251031cbc5c3)
 
 **4. Organização dados do Dashbard:**
+
 ![image](https://github.com/user-attachments/assets/021a5312-4649-48a6-a2d1-8e1e348dcfef)
 
 ## Dashboard:
