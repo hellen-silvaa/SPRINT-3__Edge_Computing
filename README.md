@@ -63,7 +63,6 @@ O projeto funciona da seguinte forma:
 [Link para acessar o projeto no WOKWI](https://wokwi.com/projects/409841153813711873)
 
 
-
 ## Iot Back-end
 ### Node-RED e MQTT
 Utilizamos o **Node-RED** para criar os dashboards em tempo real e o **MQTT** para transmissão de dados. O **mqtt in** recebe os dados dos tópicos `/bike/calorias`, `/bike/moedas``/bike/quilometros`, `/bike/luminosidade`, e o **gauge** exibe os dados no dashboard.
@@ -83,7 +82,10 @@ tabela organização para exibir os dados no dashboard:
 ![image](https://github.com/user-attachments/assets/021a5312-4649-48a6-a2d1-8e1e348dcfef)
 
 
-dashboard exibindo em tempo real os dados de km rodados, moedas ganhas, calorias gastas e luminosidade do farol da bicilceta que são dados essenciais para o ciclista que esta andando na bike-e
+## Dashboard:
+exibe em tempo real os dados de km rodados, moedas ganhas, calorias gastas e luminosidade do farol da bicilceta que são dados essenciais para o ciclista que esta andando na bike-e
+
+![image](https://github.com/user-attachments/assets/2f84daac-0d35-4416-a456-da6aa53e2984)
 
 ## Instruções de Uso
 1. Instale o [Node-RED](https://nodered.org/docs/getting-started/local).
