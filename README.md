@@ -68,20 +68,16 @@ O projeto funciona da seguinte forma:
 Utilizamos o **Node-RED** para criar os dashboards em tempo real e o **MQTT** para transmissão de dados. O **mqtt in** recebe os dados dos tópicos `/bike/calorias`, `/bike/moedas``/bike/quilometros`, `/bike/luminosidade`, e o **gauge** exibe os dados no dashboard.
 
 ### Configurações
-- **MQTT In:** Configurado no servidor test.mosquitto.org, porta 1883, tópico único `/bike/` com QoS 0 e saída em autodetecção.
-
-usei o node red (explicar o node-red e explciar o porque ele foi utilizado com o wokwi)
--usei mqtt in (explicar pra que serve)
-- gauche para o dashboard(explciar pra que serve)
+1. **MQTT In:**
 ![image](https://github.com/user-attachments/assets/70dfa369-96f9-4fb8-ba4b-c56898c8e5d5)
 
-1.Bibliotecas
+2. **Bibliotecas:**
   ![image](https://github.com/user-attachments/assets/c9b4b35a-3e13-45b7-9052-0a0251ff307e)
 
-2.Configuração MQTT
+3. **Configuração MQTT:**
 ![image](https://github.com/user-attachments/assets/43f186ce-4cd9-4781-b995-251031cbc5c3)
 
-3. Organização dados do Dashbard:
+4. **Organização dados do Dashbard:**
 ![image](https://github.com/user-attachments/assets/021a5312-4649-48a6-a2d1-8e1e348dcfef)
 
 ## Dashboard:
