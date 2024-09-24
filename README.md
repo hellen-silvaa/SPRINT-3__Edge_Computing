@@ -2,7 +2,7 @@
 EDGE COMPUTING & COMPUTER SYSTEMS
 
 ## Objetivo
-O objetivo desta sprint é desenvolver a arquitetura inicial de uma aplicação IoT capaz de receber e transmitir dados biometricamente por meio de um Edge Device. a partir disso desenvolvemos o Projeto Bike-E que tem como ambição:
+O objetivo desta sprint é desenvolver a arquitetura inicial de uma aplicação IoT capaz de receber e transmitir dados biometricamente por meio de um Edge Device e a partir disso desenvolvemos o Projeto Bike-E que foi desenvolvido para:
 
 - **Promover a Fórmula E:** Tornar a Fórmula E mais acessível e popular para pessoas de todas as idades, conectando-a ao cotidiano das pessoas através do ciclismo urbano.
 
@@ -45,7 +45,6 @@ O Projeto Bike-E é uma iniciativa que busca integrar o mundo do ciclismo urbano
   
 ![image](https://github.com/user-attachments/assets/2ec0cd3f-9d25-419e-b02d-302be35028e7)
 
-
 - **ESP32:** Microcontrolador habilitado para WiFi e Bluetooth é utilizado como o cérebro do nosso projeto, responsável por controlar e processar os dados dos sensores,
 - **Sensor de Movimento Infravermelho Passivo (PIR):** Sensor utilizado para detectar o movimento do ciclista, substituindo o velocímetro tradicional.
 - **Sensor Fotoresistor (LDR):** Sensor utilizado para detectar a luminosidade ambiente e ligar ou desligar automaticamente os faróis da bicicleta quando necessário.
@@ -59,7 +58,6 @@ O projeto funciona da seguinte forma:
 2. Se estiver escuro, o Arduino aciona os faróis da bicicleta (LED branco).
 3. O sensor PIR detecta o movimento da roda da bicicleta, enviando os dados para o Arduino.
 4. O ESP32 conecta ao wifi Wokwi-GUEST usando o servidor test.mosquitto.org e processa os dados dos sensores e exibe as informações relevantes no LCD 16x02.
-
 
 ## Iot Back-end
 ### Node-RED e MQTT
@@ -103,6 +101,6 @@ Exibe em tempo real os dados de km rodados, moedas ganhas, calorias gastas e lum
 
    -  Alexia Ramalho: RM 558385 
    -  Eduardo Dallabella: RM 556803
-   -  Heloísa Real: RM 554535
    -  Hellen Silva: RM 559008
+   -  Heloísa Real: RM 554535
    -  Lorenzo Acquesta: RM 557397
