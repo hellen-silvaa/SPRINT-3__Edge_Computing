@@ -97,7 +97,6 @@ Exibe em tempo real os dados de km rodados, moedas ganhas, calorias gastas e lum
 - Conhecimento básico em Node-RED e MQTT
 - Acesso ao servidor MQTT (test.mosquitto.org)
 
-
 ## Integrantes do Grupo:
 
    -  Alexia Ramalho: RM 558385 
