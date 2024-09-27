@@ -58,6 +58,7 @@ O projeto funciona da seguinte forma:
 2. Se estiver escuro, o Arduino aciona os faróis da bicicleta (LED branco).
 3. O sensor PIR detecta o movimento da roda da bicicleta, enviando os dados para o Arduino.
 4. O ESP32 conecta ao wifi Wokwi-GUEST usando o servidor test.mosquitto.org e processa os dados dos sensores e exibe as informações relevantes no LCD 16x02.
+5. O protocolo MQTT é utilizado no nosso projeto para enviar e receber mensagens entre o ESP32 e o broker, permitindo a comunicação em tempo real e a troca de dados sobre o estado dos sensores. Isso facilita o monitoramento remoto da bike-e, pois permite que o dashboard do node-red receba atualizações sobre a luminosidade e o movimento da bicicleta, tornando o sistema mais interativo e responsivo.
 
 ## Iot Back-end
 ### Node-RED e MQTT
