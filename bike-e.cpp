@@ -15,7 +15,7 @@ LiquidCrystal_I2C lcd(ENDERECO_LCD, LCD_COLUNAS, LCD_LINHAS);
 
 int contagemPisca = 0;
 int caloriasGastas = 0;
-int moedasGanhas = 0; // Nova variável para moedas
+int moedasGanhas = 0;
 unsigned long ultimoMovimento = 0;
 unsigned long tempoMensagemPIR = 0;
 unsigned long tempoMensagemLDR = 0;
@@ -23,9 +23,15 @@ bool exibindoMensagemPIR = false;
 bool exibindoMensagemLDR = false;
 bool exibindoMensagemInicial = true;
 
-const char* ssid = "Wokwi-GUEST";
-const char* password = "";
-const char* mqtt_server = "test.mosquitto.org";
+const char* SSID = "Wokwi-GUEST";
+const char* PASSWORD = "";
+const char* BROKER_MQTT = "broker.hivemq.com";
+const int BROKER_PORT = 1883;
+const char* ID_MQTT = "test";
+const char* TOPIC_PUB_LUZ = "/bike/luz";
+const char* TOPIC_PUB_KM = "/bike/km";
+const char* TOPIC_PUB_KCAL = "/bike/kcal";
+const char* TOPIC_PUB_MOEDAS = "/bike/moedas";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
@@ -34,9 +40,9 @@ unsigned long lastMsg = 0;
 void setup_wifi() {
   Serial.println();
   Serial.print("Connecting to ");
-  Serial.println(ssid);
+  Serial.println(SSID);
 
-  WiFi.begin(ssid, password);
+  WiFi.begin(SSID, PASSWORD);
 
   unsigned long startAttemptTime = millis();
 
@@ -102,7 +108,7 @@ void setup() {
 
   Serial.begin(115200);
   setup_wifi();
-  client.setServer(mqtt_server, 1883);
+  client.setServer(BROKER_MQTT, BROKER_PORT);
   client.setCallback(callback);
 }
 
@@ -115,23 +121,18 @@ void loop() {
   unsigned long now = millis();
   int estadoPIR = digitalRead(PINO_PIR);
 
-  // Publica a leitura da luminosidade no MQTT
   String luminosidade = String(analogRead(LDR_PIN));
-  client.publish("/bike/luz", luminosidade.c_str());
+  client.publish(TOPIC_PUB_LUZ, luminosidade.c_str());
 
-  // Publica a quilometragem no MQTT
   String quilometros = String(contagemPisca);
-  client.publish("/bike/km", quilometros.c_str());
+  client.publish(TOPIC_PUB_KM, quilometros.c_str());
 
-  // Publica as calorias gastas no MQTT
   String calorias = String(caloriasGastas);
-  client.publish("/bike/kcal", calorias.c_str());
+  client.publish(TOPIC_PUB_KCAL, calorias.c_str());
 
-  // Publica as moedas ganhas no MQTT
-  String moedas = String(moedasGanhas); 
-  client.publish("/bike/moedas", moedas.c_str());  
+  String moedas = String(moedasGanhas);
+  client.publish(TOPIC_PUB_MOEDAS, moedas.c_str());
 
-  //Sensor PIR
   if (estadoPIR == HIGH && millis() - ultimoMovimento > 2000) {
     digitalWrite(PINO_LED_PIR, HIGH);
     delay(500);
@@ -156,18 +157,16 @@ void loop() {
     tempoMensagemPIR = millis();
   }
 
-  //Mensagem de parabéns após atingir 5 km e 115 kcal
   if (contagemPisca == 5 && caloriasGastas == 115) {
     lcd.clear();
     lcd.setCursor(0, 0);
     lcd.print("Parabens! ganhou");
     lcd.setCursor(0, 1);
     lcd.print("    50 moedas");
-    moedasGanhas += 50; // Incrementa as moedas ganhas
+    moedasGanhas += 50;
     delay(5000);
   }
 
-  // Lógica do LDR (sensor de luminosidade)
   if (exibindoMensagemPIR && (millis() - tempoMensagemPIR > 2000)) {
     exibindoMensagemPIR = false;
   }
