@@ -12,7 +12,6 @@ O projeto é composto por uma arquitetura IoT que inclui dispositivos, front-end
 ## Iot Front-end principais funcionalidades:
 A Bike-E possui diversas funcionalidades que agregam valor à experiência do usuário e tudo isso é exibido em dashboards em tempo real:
 
-
 1. **Medição de Distância:** Utilizando um sensor magnético instalado no aro da bicicleta, o dispositivo é capaz de medir a distância percorrida e a velocidade do ciclista com precisão.
 2. **Contador de Calorias:** Através da lógica desenvolvida, o dispositivo calcula com precisão as calorias gastas durante o trajeto, fornecendo informações valiosas para o usuário.
 3. **Iluminação Automática:** Equipado com sensores LDR, os faróis da bicicleta são acionados automaticamente ao anoitecer, garantindo a segurança do ciclista durante a noite.
