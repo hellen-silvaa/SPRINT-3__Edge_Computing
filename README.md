@@ -80,11 +80,8 @@ Utilizamos o **Node-RED** para criar os dashboards em tempo real e o **MQTT** pa
 )
 
 **3. Configuração MQTT:**
-
-![Uploading image.png…]()
-
-**4. Organização dados HiveMQ:**
 ![segundo](https://github.com/user-attachments/assets/ce1ce981-2d71-45ce-85b6-997a8b579646)
+
 
 **4. Organização dados do Dashbard:**
 
@@ -97,13 +94,13 @@ Exibe em tempo real os dados de km rodados, moedas ganhas, calorias gastas e lum
 
 ## Instruções de Uso
 1. Instale o [Node-RED](https://nodered.org/docs/getting-started/local).
-2. Configure o MQTT no Node-RED para receber os dados dos tópicos.
-3. Execute o projeto no Wokwi e conecte ao servidor test.mosquitto.org.
+2. Configure o  [MQTT](https://www.hivemq.com/demos/websocket-client/?) no Node-RED para receber os dados dos tópicos.
+3. Execute o projeto no Wokwi e conecte ao servidor HiveMQ.
 
 ## Requisitos
 - ESP32 com conectividade WiFi
 - Conhecimento básico em Node-RED e MQTT
-- Acesso ao servidor MQTT (test.mosquitto.org)
+- Acesso ao servidor MQTT [HiveMQ](https://www.hivemq.com/demos/websocket-client/?)
 
 ## Integrantes do Grupo:
 
