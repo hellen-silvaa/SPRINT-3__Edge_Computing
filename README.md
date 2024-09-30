@@ -57,7 +57,7 @@ O projeto funciona da seguinte forma:
 1. O sensor LDR detecta a luminosidade ambiente.
 2. Se estiver escuro, o Arduino aciona os faróis da bicicleta (LED branco).
 3. O sensor PIR detecta o movimento da roda da bicicleta, enviando os dados para o Arduino.
-4. O ESP32 conecta ao wifi Wokwi-GUEST usando o servidor test.mosquitto.org e processa os dados dos sensores e exibe as informações relevantes no LCD 16x02.
+4. O ESP32 conecta ao wifi Wokwi-GUEST usando o servidor HiveMQ e processa os dados dos sensores e exibe as informações relevantes no LCD 16x02.
 5. O protocolo MQTT é utilizado no nosso projeto para enviar e receber mensagens entre o ESP32 e o broker, permitindo a comunicação em tempo real e a troca de dados sobre o estado dos sensores. Isso facilita o monitoramento remoto da bike-e, pois permite que o dashboard do node-red receba atualizações sobre a luminosidade e o movimento da bicicleta, tornando o sistema mais interativo e responsivo.
 
 ## Iot Back-end
@@ -66,17 +66,25 @@ Utilizamos o **Node-RED** para criar os dashboards em tempo real e o **MQTT** pa
 
 ### Configurações
 
+![image](https://github.com/user-attachments/assets/c8b9461f-0268-40dc-b65c-cfec1d0a1991)
+
+
 **1. MQTT In:**
 
-![image](https://github.com/user-attachments/assets/70dfa369-96f9-4fb8-ba4b-c56898c8e5d5)
+![image](https://github.com/user-attachments/assets/a0b17835-8dc3-46a5-a2e6-71fb42efb8a6)
+
 
 **2. Bibliotecas:**
 
-  ![image](https://github.com/user-attachments/assets/c9b4b35a-3e13-45b7-9052-0a0251ff307e)
+  ![image](https://github.com/user-attachments/assets/c3568948-d1d0-48d6-a481-d6f286093c30)
+)
 
 **3. Configuração MQTT:**
 
-![image](https://github.com/user-attachments/assets/43f186ce-4cd9-4781-b995-251031cbc5c3)
+![Uploading image.png…]()
+
+**4. Organização dados HiveMQ:**
+![segundo](https://github.com/user-attachments/assets/ce1ce981-2d71-45ce-85b6-997a8b579646)
 
 **4. Organização dados do Dashbard:**
 
